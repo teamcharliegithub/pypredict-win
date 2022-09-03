@@ -15,6 +15,9 @@ PyPredict is a port of the predict codebase and should yield identical results.
 If you think you've found an error in pypredict, please include output from predict on same inputs to the bug report.  
 If you think you've found a bug in predict, please report and we'll coordinate with upstream.
 
+The purpose of this fork is to generate a version of PyPredict that is compatible with Windows OS.
+At the moment, PyPredict is incompatible with Windows due to major differences between the methods by which Linux and Windows handle terminal I/O.
+
 ### Installation
 
 ```bash
