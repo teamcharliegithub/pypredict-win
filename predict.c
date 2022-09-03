@@ -23,11 +23,11 @@
 #include <stdio.h>
 #include <math.h>
 #include <time.h>
-#include <sys/time.h>
+#include "sys/time.h"
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#include <unistd.h>
+#include "unistd.h"
 #include <fcntl.h>
 #include <termios.h>
 
